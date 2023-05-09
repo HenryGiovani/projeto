@@ -1,0 +1,60 @@
+* {
+    outl2ine: 1px solid grey;
+}
+
+
+body {
+    background-image: url("../img/corredor.jpg"); /*endereço da imagem*/
+    background-repeat: no-repeat; /*para a imagem de fundo não se repetir*/
+    background-position: center 0; /*posição da imagem*/
+    background-color: black; /*cor do fundo da imagem*/
+    background-size: 80%; /*tamanho da imagem*/
+}
+
+footer {
+    color: white;
+}
+#logo {
+    margin: 200px 0px 200px 0px; /*definindo a margem em volta da imagem*/
+    animation: jonatan 3.5s; /*tempo de animação*/
+}
+@keyframes jonatan{
+    0%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+h2 {
+    color: turquoise;
+}
+
+h4 {
+    color: rgb(183, 13, 13);
+}
+.img{
+    width: 50%;
+    min-width: 200px;
+    height: auto;
+}
+.img1{
+    width: 45%;
+    min-width: 200px;
+    height: auto;
+}
+.container {
+    background-color: rgb(4, 2, 23);
+    display: flexbox;
+    border: 5px dashed pink;
+    padding: 20px;
+    margin: 100px;
+    animation: aparecer 1.5s;
+}
+@keyframes aparecer{
+    0%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.div {
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}

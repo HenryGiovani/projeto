@@ -1,0 +1,38 @@
+a {
+    text-decoration: none /*tirando a decoração do link*/
+}
+
+header {
+    left: 0%;
+}
+
+.abrir {
+    color: white; /*cor*/
+    font-size: 30px; /*tamanho*/
+    margin: 20px; /*margem*/
+    padding-right: 100%;
+}
+
+nav {
+    height: 100%; /*altura*/
+    width: 0px; /*largura*/
+    background-color: rgb(4, 2, 23); /*cor de fundo do menu*/
+    position: fixed; /*para fixar o menu no topo do site*/
+    top: 0;
+    left: 0;
+    z-index: 1; /**/
+    overflow: hidden; /*esconder o menu*/
+    transition: width 0.3s; /*transição do menu para a esquerda*/
+}
+
+nav a { /*decoração do menu*/
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 10px;
+}
+
+nav a:hover { /*decoração ao passar o mouse no menu*/
+    background-color: rgb(4, 2, 23);
+    background-color: rgb(19, 16, 47);
+}
